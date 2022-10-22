@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Test", "Midnight")
+local Window = Library.CreateLib("Chatlines", "Midnight")
 local me = Window:NewTab("Chatlines")
 local mee = me:NewSection("Maple Hospital Chat lines")
 
