@@ -53,6 +53,6 @@ end)
 
 local Tab = Window:NewTab("Settings")
 local UI = Tab:NewSection("UI Settings")
-UI:NewKeybind("Toggle UI", "Toggles UI", Enum.KeyCode.Z, function()
+UI:NewKeybind("Toggle UI", "Toggles UI", Enum.KeyCode.Quote, function()
 	Library:ToggleUI()
 end)
