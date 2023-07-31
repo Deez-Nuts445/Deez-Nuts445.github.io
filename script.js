@@ -14,5 +14,5 @@ function e() {
    window.open("https://chng.it/4kbMYG5VqT") 
 };
 function f() {
-    window.open("https://deez-nuts445.github.io/knowthetruth/roblox/index.html")
+    window.open("https://is.gd/NRpCZF")
 }
