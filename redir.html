@@ -1,0 +1,35 @@
+<html>
+    <link rel="stylesheet" href="styles/style.css">
+  <head>
+  </head>
+  <body>
+    <title>Redirect</title>
+    <h1 id="a"></h1>
+    <br>
+    <h2 id="center" onclick="back()">Click text to go back to previous website</h2>    
+    <br>
+    <h2>Powered by Deez-Nuts445 on github</h2>
+  </body>
+</html>
+<script>
+  function back() {
+   history.back()
+  }
+
+
+  let queryString = window.location.search;
+  let urlParams = new URLSearchParams(queryString);
+  let link = urlParams.get('link')
+  let obj = document.getElementById("a")
+  obj.innerHTML = "You will be redirdcted to " + link + " in 5 seconds!"
+
+  window.onload(   
+    setTimeout(
+  () => {
+
+    window.location.replace(link);
+  },
+  5000
+   )
+  );
+</script>
