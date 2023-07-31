@@ -16,3 +16,6 @@ function e() {
 function f() {
     window.open("https://is.gd/NRpCZF")
 }
+function g() {
+    window.open("https://deez-nuts445.github.io/redirectr.html")
+}
