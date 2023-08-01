@@ -48,3 +48,15 @@ button {
   button:hover {
     box-shadow: 0 0 10px rgb(0, 238, 255)
 }
+
+input {
+  width: 300px;
+  margin-bottom: 10px;
+  color: #fefefe;
+  background: rgba(0, 0, 0, 0.438);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 13px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
