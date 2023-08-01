@@ -43,7 +43,8 @@ button {
     padding: 10px;
     font-size: 13px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-button:hover {
+  
+  }
+  button:hover {
     box-shadow: 0 0 10px rgb(0, 238, 255)
 }
