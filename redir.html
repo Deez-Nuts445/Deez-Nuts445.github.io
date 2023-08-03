@@ -21,16 +21,24 @@
   let queryString = window.location.search;
   let urlParams = new URLSearchParams(queryString);
   let link = urlParams.get('link')
+  let uset = urlParams.get('time')
+  let time = 5
   let obj = document.getElementById("a")
   obj.innerHTML = "You will be redirdcted to " + link + " in 5 seconds!"
-
+  if (uset){
+    time=uset
+  }
+if (link) {
   window.onload(   
     setTimeout(
   () => {
 
     window.location.replace(link);
   },
-  5000
+  time*1000
    )
   );
+} else {
+  alert("No Link Found!")
+}
 </script>
