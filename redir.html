@@ -24,10 +24,10 @@
   let uset = urlParams.get('time')
   let time = 5
   let obj = document.getElementById("a")
-  obj.innerHTML = "You will be redirdcted to " + link + " in 5 seconds!"
   if (uset){
     time=uset
   }
+  obj.innerHTML = "You will be redirdcted to " + link + " in " + time + " seconds!"
 if (link) {
   window.onload(   
     setTimeout(
@@ -39,6 +39,7 @@ if (link) {
    )
   );
 } else {
-  alert("No Link Found!")
+  alert("No Link Found! Click OK to go back to previous website")
+  back()
 }
 </script>
