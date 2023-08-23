@@ -19,3 +19,9 @@ function f() {
 function g() {
     window.open("https://deez-nuts445.github.io/redirectr.html")
 }
+function h() {
+    window.open("https://hub.docker.com/u/thatonenoob")
+}
+function i() {
+    window.open("https://www.patreon.com/D3xScripts")
+}
