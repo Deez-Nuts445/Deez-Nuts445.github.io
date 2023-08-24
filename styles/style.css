@@ -5,7 +5,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  color: rgb(254, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -19,6 +19,8 @@ h2 {
   font-variant: normal;
   text-align: center;
 }
+
+
 
 #center {
   display: flex;
@@ -48,7 +50,9 @@ button {
 button:hover {
   box-shadow: 0 0 10px rgb(0, 238, 255)
 }
-
+.flex-container {
+  display: flex;
+}
 input {
 width: 300px;
 margin-bottom: 10px;

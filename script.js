@@ -25,3 +25,16 @@ function h() {
 function i() {
     window.open("https://www.patreon.com/D3xScripts")
 }
+
+// start for stuff
+function toggleDetails(button) {
+    const details = button.parentNode.nextElementSibling;
+    details.classList.toggle('show');
+    
+    if (details.classList.contains('show')) {
+      button.textContent = 'Hide Details';
+    } else {
+      button.textContent = 'Show Details';
+    }
+  }
+// end for stuff

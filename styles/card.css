@@ -1,0 +1,16 @@
+.card {
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid aliceblue;
+    padding: 10px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .card h3 {
+    margin-top: 0;
+  }
+
+  .card p {
+    margin-bottom: 0;
+  }
