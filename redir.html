@@ -21,16 +21,19 @@
 
   let queryString = window.location.search;
   let urlParams = new URLSearchParams(queryString);
-  let link = urlParams.get('link')
-  let uset = urlParams.get('time')
-  let time = 5
+  let params = urlParams.get('params')
+  let table = JSON.parse(params)
+  let link = table["link"]
+  let uset = table["time"]
+  let time = 100
   let obj = document.getElementById("a")
   if (uset){
     time=uset
   }
-  obj.innerHTML = "You will be redirdcted to " + link + " in " + time + " seconds!"
+  obj.innerHTML = "No Link!"
 if (link) {
-  window.onload(   
+  obj.innerHTML = "You will be redirdcted to " + link + " in " + time + " seconds!"
+  window.onload(
     setTimeout(
   () => {
 
@@ -40,7 +43,7 @@ if (link) {
    )
   );
 } else {
-  alert("No Link Found!")
+  alert("No Link Found! Please check if the JSON param's are in correct format. Please also make sure that the first argument is named 'link'.")
   back()
 }
 </script>
