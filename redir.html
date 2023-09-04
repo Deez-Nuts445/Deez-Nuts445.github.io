@@ -23,8 +23,8 @@
   let urlParams = new URLSearchParams(queryString);
   let params = urlParams.get('params')
   let table = JSON.parse(params)
-  let link = table["link"]
-  let uset = table["time"]
+  let link = table["link"] || urlParams.get("link")
+  let uset = table["time"] || urlParams.get("time")
   let time = 100
   let obj = document.getElementById("a")
   if (uset){

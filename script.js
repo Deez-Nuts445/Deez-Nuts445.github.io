@@ -25,16 +25,6 @@ function h() {
 function i() {
     window.open("https://www.patreon.com/D3xScripts")
 }
-
-// start for stuff
-function toggleDetails(button) {
-    const details = button.parentNode.nextElementSibling;
-    details.classList.toggle('show');
-    
-    if (details.classList.contains('show')) {
-      button.textContent = 'Hide Details';
-    } else {
-      button.textContent = 'Show Details';
-    }
-  }
-// end for stuff
+function j() {
+    navigator.clipboard.writeText('<link rel="stylesheet" href="https://rawcdn.githack.com/Deez-Nuts445/card.css/fb48ec3aadc780c613ce383c80578e1ebe6d8f10/card.css">')
+}
