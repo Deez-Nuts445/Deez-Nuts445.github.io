@@ -20,6 +20,9 @@ body {
     text-align: center;
   }
   
+  .cross {
+    text-decoration: line-through;
+  }
   
   
   #center {

@@ -1,11 +1,18 @@
 <html>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://rawcdn.githack.com/Deez-Nuts445/card.css/fb48ec3aadc780c613ce383c80578e1ebe6d8f10/card.css">
   <head>
   </head>
   <body>
     <title>Redirect</title>
-    <h1 id="a"></h1>
-    <h2 id="change">Powered by <a href="https://github.com/Deez-Nuts445">Deez-Nuts445</a> on github.</h2>
+    <h1 id="a">No link found! If it is still not working, then report a issue <a href="https://github.com/Deez-Nuts445/Deez-Nuts445/issues/new">here</a>. (add ReDirectR tag when posting issue, no tag = ignore / issue closed)</h1>
+    <div id="center" class="flex-container">
+        <div class="card">
+          <h3><a href="https://github.com/Deez-Nuts445">Deez-Nuts445</a></h3>
+          <p>Creator of RDR</p>
+        </div>
+    </div>
+    <br>
     <div id="center">
       <button onclick="back()">Go back</button>
     </div>
@@ -18,14 +25,17 @@
    history.back()
   }
 
+  function NullifyObject(obj) {
+  return obj === nil ? null : obj;
+}
 
   let queryString = window.location.search;
   let urlParams = new URLSearchParams(queryString);
   let params = urlParams.get('params')
   let table = JSON.parse(params)
-  let link = table["link"] || urlParams.get("link")
-  let uset = table["time"] || urlParams.get("time")
-  let time = 100
+  let link = table["link"]
+  let uset = table.time
+  let time = 5
   let obj = document.getElementById("a")
   if (uset){
     time=uset
@@ -42,8 +52,5 @@ if (link) {
   time*1000
    )
   );
-} else {
-  alert("No Link Found! Please check if the JSON param's are in correct format. Please also make sure that the first argument is named 'link'.")
-  back()
 }
 </script>
