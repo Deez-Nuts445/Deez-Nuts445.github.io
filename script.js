@@ -16,18 +16,15 @@ function e() {
 function f() {
     window.open("https://is.gd/NRpCZF")
 }
-function g() {
-    window.open("https://deez-nuts445.github.io/redirectr.html")
-}
+// function g() {
+//     window.open("https://deez-nuts445.github.io/redirectr.html")
+// }
 function h() {
     window.open("https://hub.docker.com/u/thatonenoob")
 }
 function i() {
     window.open("https://www.patreon.com/D3xScripts")
 }
-function j() {
-    navigator.clipboard.writeText('<link rel="stylesheet" href="https://rawcdn.githack.com/Deez-Nuts445/card.css/fb48ec3aadc780c613ce383c80578e1ebe6d8f10/card.css">')
-}
-function k(){
-    window.open('https://deez-nuts445.github.io/card.css/index.html')
-}
+// function k(){
+//     window.open('https://deez-nuts445.github.io/card.css/index.html')
+// }
