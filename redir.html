@@ -31,10 +31,8 @@
 
   let queryString = window.location.search;
   let urlParams = new URLSearchParams(queryString);
-  let params = urlParams.get('params')
-  let table = JSON.parse(params)
-  let link = table["link"]
-  let uset = table.time
+  let link = urlParams.get('link')
+  let uset = urlParams.get('time')
   let time = 5
   let obj = document.getElementById("a")
   if (uset){
