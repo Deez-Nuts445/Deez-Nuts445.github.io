@@ -1,7 +1,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
+background-image: url(../Assets/bk.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
 }
+
 
 h1 {
     display: block;

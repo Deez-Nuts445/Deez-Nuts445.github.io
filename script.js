@@ -16,15 +16,15 @@ function e() {
 function f() {
     window.open("https://is.gd/NRpCZF")
 }
-// function g() {
-//     window.open("https://deez-nuts445.github.io/redirectr.html")
-// }
+function g() {
+    window.open("https://deez-nuts445.github.io/products/redirectr/index.html")
+}
 function h() {
     window.open("https://hub.docker.com/u/thatonenoob")
 }
 function i() {
     window.open("https://www.patreon.com/D3xScripts")
 }
-// function k(){
-//     window.open('https://deez-nuts445.github.io/card.css/index.html')
-// }
+function k(){
+    window.open('https://deez-nuts445.github.io/products/cardcss/index.html')
+}
